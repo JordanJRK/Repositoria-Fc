@@ -1,0 +1,385 @@
+\documentclass[letterpaper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr} 
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{mathrsfs}
+\usepackage{dsfont}
+
+%---------------COLOR DE HOJA------------------
+\definecolor{fondo}{RGB}{249, 169, 152}
+\definecolor{Simbolos}{RGB}{12, 134, 228}
+%-----------------ENCABEZADO--------------------
+\pagestyle{myheadings}
+    \fancyhf{}
+    \rhead[Jordan Ricardo]{}
+    \chead{}
+    \lhead[Jordan Ricardo]{}
+    
+    \rfoot{\thepage}
+    \cfoot{}
+    \lfoot{\leftmark}
+
+\title{Ocupo recordarlo, si no, muero}
+\author{Jordan Ricardo Rodríguez Castillo}
+\date{Octubre 2022}
+
+\begin{document}
+\pagecolor{fondo}
+
+
+{
+{\huge{
+\textsc{
+    \textbf{
+        \textcolor{brown}{Ocupo recordarlas, si no, muero}}}
+}}}
+
+\pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{FÍSICA GENERAL}
+                 
+\section*{\textsc{Física General}}
+
+
+    \subsection*{Formulas para MRU + aceleración}
+    %La neta aunque se despejem haciendo integrales y vengan de la misma como origen casi muero por no saber cual de las 5 ocupar, por eso las pongo todasss
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{*}] $V_{f} = V_{0} + a\cdot t$\\
+        
+        
+        Formula en la que se puede usar los datos del movimiento cuando se desconoce la distancia que se recorrió, basta con tener la velocidad desde el momento inicial, la aceleración y el tiempo en el que estuvo en movimiento. Que ya viendolo bien, tiene sentido si la aceleración puede cambiar a cada segundo que pasa a la velocidad, no me había dado cuenta.\\
+        
+        \item[\textcolor{Simbolos}{°}] $d= V_{0} \cdot t + \frac{1}{2}a \cdot t^{2} $\\
+        
+        Hay veces en las que en los problemas no se cuenta con la velocidad final y requieres saber la distancia, en ese caso se ocupa esta. Se puede deducir el porque de la formula cuando sabes que las unidades de la velocidad y la aceleración se vuelven 1 al multiplicarlas por el tiempo y tiempo al cuadrado respectivamente.\\
+        
+        \item[\textcolor{Simbolos}{\clubsuit}] $d = V_{f}\cdot t-\frac{1}{2}a\cdot t^{2}$\\
+        
+        Caso contrario pero en esta formula no aparece ($V_{0}$), conservando que en esta la variable de la que depende la distancia que se obtendrá, es el tiempo, lo que nos sirve para casos en los que se nos dan objetos en los que uno sale despues del otro.\\
+        
+        \item[\textcolor{Simbolos}{\bigstar}] \textcolor{red}{$V_{f}^{2} = V_{0}^{2} +2a\cdot d$}\\
+        
+        Esta es la que considero más util por el razonamiento que conlleva de las unidades que maneja  y es la ecuación en la que se conoce la velocidad inicial y se quiere saber la velocidad final de un cuerpo en movimiento, el razonamiento de la ecuac\'on es sencillo cuando observas la segunda parte de la suma después del igual, ya que hace sentido que a la velocidad con la que iniciaste se modifica despues de una cierta distancia en la que actuó la aceleración.
+        
+        \item[\textcolor{Simbolos}{\blacksquare}]
+        $d=\left( \frac{V_{0}+V_{f}}{2} \right) \cdot t $\\
+        
+        Si no se tiene la aceleración se usa esta ecuación, en la que las unidades son las siguientes y se comparten con las 4 ecuaciones anteriores:\\
+        
+        $$\textrm{Distancia: } d= \textrm{[m] metros }$$
+        $$\textrm{Velocidad inicial: }V_{0} = \left[ \frac{m}{s} \right] \textrm{metros sobre segundo} $$
+        $$\textrm{Velocidad final: }V_{f} = \left[ \frac{m}{s} \right] \textrm{metros sobre segundo} $$
+        $$\textrm{Tiempo: } t= \textrm{[s] segundos }$$
+        $$\textrm{Aceleración: } a = \left[ \frac{m}{s^{2}} \right] \textrm{metros sobre segundo cuadrado} $$
+    \end{itemize}
+    
+    \newpage
+    \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{CAÍDA LIBRE}
+                 
+    \subsection*{Caída libre}
+    
+    En realidad están muy conectadas con las anteriores, pero para ejercicios y demás me sale más a cuentas tenerlas separadas.
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\blacksquare}] {\textcolor{red}{$y = H -\frac{1}{2} g\cdot t^{2}$}}
+        
+        La ecuación es útil cuando se usa en un movimiento que obedece el comportamiento de un movimiento uniformemente acelerado, en el que se deja caer un cuerpo desde una altura y no se considera la resistencia que pudiera tener en el camino, a parte de las unidades que ya se describieron antes se encuentan las siguientes:
+        
+        $$\textrm{Gravedad: } g = \left[ \frac{m}{s^{2}} \right] \textrm{metros sobre segundo cuadrado} $$ (en realidad pues se podría considerar igual como la aceleración, pero se maneja así para que sea más sencillo interpretarlo)
+        
+        $$\textrm{Posición final: } y= \textrm{[m] metros }$$ (que también podría denotarse como $y_{f}$ pero para diferenciar mejor, solo con la y.)
+        
+        $$\textrm{Altura desde la que cayó: } H= \textrm{[m] metros }$$ 
+        
+    \end{itemize}
+    
+    \newpage
+    \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{ECUACIÓN DE LA ONDA}
+                 
+    \subsection*{Ecuación de la onda}\\
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\clubsuit}] \textcolor{red}{$$y(x,t)= Acos \left( \frac{2\pi}{\lambda}x\pm \frac{2\pi}{T}t + \phi \right)$$}
+        
+        Es la forma matemática que tenemos para describir a las ondas, ya sea ondas que se generan el el mar, ondas de sonido, etc. Esta onda sirve para poder describir a cualquier onda en cualquier posición y cualquier tiempo(que es sencillo verlo justo antes del igual) en el que esté usando los datos de su Amplitud, periodo y su lingitud de onda.\\
+        
+        Los factores a tomar en cuenta son:
+        
+        $$\textrm{Amplitud de onda: } A $$ 
+        $$\textrm{Longitud de onda: } \lambda $$ 
+        $$\textrm{Periodo: } T$$ 
+        $$\textrm{Constante por si existe algún desplazamiento: } \phi$$ 
+        $$\textrm{Psoción: } x$$ 
+        $$\textrm{Tiempo: }t$$ 
+    \end{itemize}
+
+\newpage
+
+ \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{ECUACIÓN DE SCHRÖDINGER}
+                 
+
+    \subsection*{Ecuación de Schrödinger}
+    \begin{itemize}
+    
+ 
+    \item[\textcolor{Simbolos}{$\Join$}] \textcolor{red}{$$i\hbar \frac{\partial }{\partial t}\psi (r,t)=\hat{H}\psi (r,t)$$}
+    
+    Sirve para describir la evolución en el tiempo de una partícula subatómica masiva (ondulatoria y no relativista), lo que la ecucación nos da de información es la PROBABILIDAD de que la partícula se encuentre en esa posición del espacio en un determinado tiempo.
+    
+    
+    Donde los factores que intervienen son:\\
+    
+    $$\textrm{Unidad imaginaria: }i$$ 
+    $$\textrm{Constante de Dirac: } \hbar$$ 
+    $$\textrm{Función de onda del sistema cuántico: \psi} $$
+    
+    $$\textrm{Operador diferencial Hamiltoniano: \hat{H}} $$ 
+    
+    
+       \end{itemize}
+       
+    \subsection*{Ecuaciones de Maxwell}
+    
+    Son cuatro ecuaciones que resultan de unas 20 originales en las que se escriben los fenómenos electromagnéticos.
+    
+    \subsubsection*{Ley de Gauss para campo eléctrico}
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\boxdot}] $\Phi_{E} = \oint_{s}E \cdot dS$\\
+        
+        Explica la relación entre el flujo del campo eléctrico a través una superficie cerrada con la carga neta encerrada por la superficie.
+        
+        Con:
+        $$\Phi_{E} \textrm{ =  flujo eléctrico}$$ 
+        $$E \textrm{ =  Cantidad de campo eléctrico}$$ 
+        $$S \textrm{ =  Superficie}$$ 
+        
+    \end{itemize}
+    
+    
+     \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{ECUACIONES DE MAXWELL}
+                 
+    
+    \subsubsection*{Ley de Gauss para campo magnético}
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\boxdot}] $\oint_{s}B \cdot dS = 0 $\\
+        
+        Esta ley dice que los campos magnéticos no comienzan ni terminan en cargas distintas, sino que las líneas de los campos magnéticos son cerradas.
+        
+        Con:
+        $$B \textrm{ =  Densidad de campo magnético}$$ 
+        $$S \textrm{ =  Superficie}$$ 
+        
+    \end{itemize}
+    
+    \subsubsection*{Ley de Faraday}
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\boxdot}] $\oint_{C}E \cdot dl = - \int_{s} \frac{dB}{dt} \cdot dS $\\
+        
+        La ley habla acerca de la inducción electromagnética, que produce una fuerza alectromotriz en un campo magnético.
+        
+    \end{itemize}
+    
+    \subsubsection*{Ley de Ampere generalizada}
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\boxdot}]
+        %1 disculpa esq la ecuacion con integrales está bien CERDA
+        
+        $\vec{\bigtriangledown} \times \vec{B}=\mu_{0}\vec{J}+\mu_{0}\epsilon_{0}\frac{\partial \vec{E}}{\partial t}$\\
+        
+       Ampère formuló una relación para un campo magnético inmóvil y una corriente eléctrica que no varía en el tiempo
+        
+        
+    \end{itemize}
+    
+    \newpage
+    \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{LEY DE LA GRAVEDAD}
+                 
+    \section*{Ley de la Gravedad}
+    
+    Obtenida en 1687 por Isaac Newton la ecuación describe de forma muy acertada fenómenos que van desde la caída de los cuerpos hasta la trayectoria de los planetas, con lo que a través de esta se tiene la descripción de la gravedad a nivel de todo el universo. En esta se toman en cuenta la distancia a la que se encuentran dos masas separadas y esas multiplicadas por la gravedad, dando como resultado la fuerza con la que se atraen.
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\circledast}] $$F=G\frac{m_1\cdot m_{2}}{r^{2}}$$
+    \end{itemize}
+    
+    
+    
+    
+       
+\newpage
+       
+ \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{TERMODINÁMICA}
+                 
+\section*{Termodinámica}
+
+\subsection*{Ciclo de Carnot}
+
+Esta fue la aportación de Nicolas Leonard Sadi Carnot en 1824 al proporcionar una forma en la cual se pudiera describir como sería la máxima eficiancia de una máquina térmica.
+
+La formula para la máxima eficiencia es:
+\begin{itemize}
+    \item[\textcolor{Simbolos}{\oplus}]
+    $$\eta_{max} = 1-\frac{T_{C}}{T_{H}}$$
+    
+    En este la eficiencia representa la relación entre $\frac{W}{Q_{H}}$ el trabajo realizado por el motor (W) a la energía térmica (Q) que ingresa al sistema desde el depósito caliente.\\
+    
+    En la ecuación aparecen los valores de temperatura en los focos frio y caliente (expresados como $T_{C}$ y $T_{H}$ respectivamente).
+\end{itemize}    
+    \subsection*{Gases ideales}
+    
+    \begin{itemize}
+        \item [\textcolor{Simbolos}{\circ}] \textcolor{red}{$P \cdot V = n\cdot R \cdot T$} \\
+        
+        La ecuación es formada a partir de la teoría cinética molécular desarrollada por Ludwig Boltzmann y Maxwell e indica las propiedades a nivel molécular de un gas a partir de:
+        
+        $$\textrm{Presión } P = [Pa] \textrm{ Pascales}$$ 
+        $$\textrm{Volumen } V = [L] \textrm{ Litros}$$ 
+        $$\textrm{Número de moles: } n $$ 
+        $$\textrm{Constante universal de los gases: } R$$ 
+        $$\textrm{Temperatura } T = [K] \textrm{ Kelvin}$$ 
+    \end{itemize}
+    
+\newpage
+
+ \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{LEY COMBINADA DE LOS GASES}
+
+\subsection*{Ley combinada de los gases}
+
+\begin{itemize}
+    \item [\textcolor{Simbolos}{\bigcirc}]
+    $$\frac{P_{1}V_{1}}{T_{1}} = \frac{P_{2}V_{2}}{T_{2}}\textrm{,    con }n \textrm{ constante}$$
+    
+    Nace como consecuencia de la anterior y es muy útil en los procesos termodinámicos que involucran a los motores y su eficiencia, como lo es tambien los tipos de procesos que intervienen en el ciclo de Carnot. Estos procesos son:
+\end{itemize}    
+
+    \subsubsection*{Ley de Boyle} 
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\circledast}]$P_{1}\cdot V_{1}=P_{2}\cdot V_{2} $
+    
+    
+    Dice que a temperatura y cantidad de gas constante, la presión de un gas es inversamente proporcional a su volumen (Dentro de los procesos termodinámicos se le conoce como proceso isotermico).
+    \end{itemize}
+    
+    \subsubsection*{Ley de Charles} 
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\circledast}]$\frac{V_{1}}{T_{1}}=\frac{V_{2}}{T_{2}} $
+    
+    
+    Conocido dentro de los procesos termodinámicos como proceso isobárico, se da cuando la cantidad de gas y la presión son constantes.
+    \end{itemize}
+    
+    \subsubsection*{Ley de Gay-Lussac} 
+    
+    \begin{itemize}
+        \item[\textcolor{Simbolos}{\circledast}]$\frac{P_{1}}{T_{1}}=\frac{P_{2}}{T_{2}} $
+    
+    
+    En esta se establece que la presión de un volumen fijo de un gas, es directamente proporcional a su temperatura. 
+    \end{itemize}
+
+\newpage
+
+ \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{QUÍMICA}
+
+\section*{Química}
+
+Con la ley de los gases ideales también se puede deducir algunas otras que son igual de útiles en campos fuera de la termodinámica y sus procesos.
+
+\subsection*{Ley de Abogadro}
+
+
+\begin{itemize}
+    \item[\textcolor{Simbolos}{\otimes}] $\frac{V_{1}}{n_{1}} = \frac{V_{2}}{n_{2}}$\\
+
+La ley de Avogadro establece que "volúmenes iguales de todos los gases, a la misma temperatura y presión, tienen el mismo número de moléculas", y se relaciona mucho con los moles de un elemento. A partir de esta se pudieron conocer cosas como la constante de Avogadro y también el volúmen molar de un gas ideal.
+
+\end{itemize}
+
+\newpage
+
+ \pagestyle{fancy}
+            \fancyhf{}
+            \rhead{Jordan Rodríguez}
+            \cfoot{\thepage}
+                 \lhead{MATEMÁTICAS}
+
+\section*{Matemáticas}
+
+\subsection*{Formula para valor de las Determinantes}
+
+%----------ESTO ES ALGO QUE DEDUJIMOS ENTRE TODA LA BANDA EN UNA CLASE, NO PUEDO ASEGURAR QUE ESTA MONSTRUOSIDAD SEA CIERTA PERO CUANDO LA VIMOS SALIÓ Y PS NO SÉ, YO ME LA CREO---------------
+Siendo $A$ una matriz $A \in M_{nxn} $
+
+$$A= 
+\begin{pmatrix}
+a_{11}&a_{12}&...&a_{1n}\\
+a_{21}&a_{22}&...&a_{2n}\\
+...&...&...&...\\
+a_{n1}&a_{n2}&...&a_{nn}
+\end{pmatrix}$$
+
+Tenemos que su determinante vale
+
+$$|A|= a_{11}c_{11}+a_{12}c_{12}+...+a_{1n}c_{1n}$$
+
+En el que denotamos a $C_{rs}$ para los cofactores como:
+
+$$ C_{rs}= (-1)^{r+s}|M_{rs}|$$
+
+Con $|M_{rs}|$ siendo la matriz menor de $A$ sin los elementos del renglon $r$ y la columna $s$, por lo que al final tenemos:
+
+$$|A| = \sum_{s=1}^{n} a_{1s}c_{1s}$$
+
+\subsection*{Definición de la derivada}
+
+Dada por Newton en 1668 es la herramienta matemática que Newton utilizó para sus descubrimientos y aportes a la ciencia, que siguen siendo relevantes hoy en día. Expresada con límites queda de esta forma:
+
+\begin{itemize}
+    \item[\textcolor{Simbolos}{\diamond}] $$\frac{df}{dt} = \lim\limits_{x\to 0}{\frac{f(t+h)-f(t)}{h}}$$
+\end{itemize}
+\end{document}
